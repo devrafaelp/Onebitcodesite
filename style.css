@@ -1,9 +1,8 @@
 body {
-  background-color: rgb(187, 185, 185);
+  background-color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #8c9494;
 }
-.fotog {
-  box-shadow: 4cm, 10cm, 10cm;
-}
-.titulo {
-  box-shadow: 2cm, 3cm, 3cm;
+img {
+  box-shadow: 10px 10px 10px #2a3d3d;
 }
