@@ -1,3 +1,9 @@
 body {
   background-color: rgb(187, 185, 185);
 }
+.fotog {
+  box-shadow: 4cm, 10cm, 10cm;
+}
+.titulo {
+  box-shadow: 2cm, 3cm, 3cm;
+}
