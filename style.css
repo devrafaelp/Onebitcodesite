@@ -1,0 +1,7 @@
+body {
+  background-color: rgb(167, 169, 185);
+}
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  flex-grow: inherit;
+}
