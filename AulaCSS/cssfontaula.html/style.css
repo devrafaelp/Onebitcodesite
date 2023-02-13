@@ -1,0 +1,20 @@
+h1{
+  font-family: 'Montserrat';
+}
+p[class='date']{
+  font-family: 'Roboto';
+  color: #008080;
+}
+div[class='post-content']{
+  font-family: 'Open Sans';
+  margin: auto;
+}
+div[class='post-container']{
+  background-color: #fffafa;
+  margin: 100px 75px 75px 100px;
+}
+div[class='post']{
+  margin: 50px 50px 50px 50px;
+  text-align: left;
+  
+}
