@@ -5,17 +5,67 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pesquisa Google</title>
+  <title>Cadastro da liga dos astronautas</title>
 </head>
 
 <body>
-  <h3>Pesquisa Google</h3>
-  <form action="https://www.google.com/search">
-    <label for="q">Pesquisa:</label>
-    <input type="text" name="q" placeholder="Exemplo: Nasa, SpaceX, Blue Origin">
-    <input type="submit" value="Pesquisar">
-  </form>
+  <h3>Cadastro da da liga dos astronautas</h3>
+  <form action=""></form>
+  <div>
+    <label for="name">Nome:</label>
+    <input type="         text" id="nome" name="nome">
+  </div>
+  <br>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+    <label for="password">Senha</label>
+    <input type="password" name="password" id="password">
+  </div>
+  <br>
+  <div>
+    <label for="data">Data de nascimento:</label>
+    <input type="date" name="data" id="data"> -
+    <label for="foto">Arquivo:</label>
+    <input type="file" name="foto" id="foto">
+  </div>
+  <br>
+  <div>
+    <label for="nationality">Nacionalidade:</label>
+    <select name="nationality" id="nationality">
+      <option value="russian">Russia</option>
+      <option value="american">Americana</option>
+      <option value="brazilian">Brasileira</option>
+    </select>
 
+    - Gênero:
+    <label for="female">F</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="male">M</label>
+    <input type="radio" name="gender" id="male" value="male">
+  </div>
+  <br>
+  <div>
+    Suas principais qualidades:
+    <label for="int">Inteligência</label>
+    <input type="checkbox" name="int" id="int">
+    <label for="res">Resiliência</label>
+    <input type="checkbox" name="int" id="int">
+    <label for="physic">Físico</label>
+    <input type="checkbox" name="physic" id="physic">
+    <label for="edu">Educação</label>
+    <input type="checkbox" name="edu" id="edu">
+  </div>
+  <br>
+  <div>
+    <textarea name="description" id="description" cols="30" rows="10"
+      placeholder="Porque você gostaria de ser astronauta?"></textarea>
+  </div>
+  <br>
+  <div>
+    <input type="submit" value="Criar">
+  </div>
+  </form>
 </body>
 
 </html>
