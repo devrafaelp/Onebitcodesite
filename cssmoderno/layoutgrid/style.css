@@ -3,14 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container{
-  background-color: darkgray;
-  min-height: 100vh;
+
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
 }
-.item{
+
+.logo-rock{
   width: 200px;
-  height: 200px;
-  border: 2px solid black;
-  background-color: white;
+}
+
+.logo-onebitcode{
+  width: 40px;
+}
+
+.buttons{
+  display: flex;
+  gap: 10px;
+}
+
+.buttonHeader{
   font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 156px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.buttonHeader:hover{
+  border-color: #e9223d;
 }
