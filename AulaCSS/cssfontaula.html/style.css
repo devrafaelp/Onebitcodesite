@@ -3,14 +3,14 @@ h1{
 }
 p[class='date']{
   font-family: 'Roboto';
-  color: #008080;
+  color: #6cbdb2;
 }
 div[class='post-content']{
   font-family: 'Open Sans';
   margin: auto;
 }
 div[class='post-container']{
-  background-color: #fffafa;
+  background-color: #f8ebe5;
   margin: 100px 75px 75px 100px;
 }
 div[class='post']{
